@@ -13,8 +13,9 @@ public class yote : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (Input.GetKeyDown(KeyCode.W)) {
-            anim.SetBool("walking", true);
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            anim.Play("Walk");
         }
 	}
 }
